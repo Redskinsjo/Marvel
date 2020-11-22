@@ -17,7 +17,6 @@ const FavComic = ({ image, name }) => {
             });
             newFavComics = JSON.stringify(newFavComics);
             localStorage.setItem('fav-comics', newFavComics);
-            document.location.reload();
             message.success('Your favorite comic has been deleted');
           }}
         >

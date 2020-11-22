@@ -28,7 +28,6 @@ const FavCharacters = ({ id, name, image, details }) => {
               });
               newFavChars = JSON.stringify(newFavChars);
               localStorage.setItem('fav-characters', newFavChars);
-              document.location.reload();
               message.success('Your favorite comic has been deleted');
             }}
           >
