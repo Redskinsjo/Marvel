@@ -1,0 +1,19 @@
+.container-comicchar {
+  height: 100%;
+  width: 250px;
+  /* margin-right: 100px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container-comicchar img {
+  height: 233px;
+  padding: 10px;
+  background: silver;
+  margin: 0 10px;
+}
+.container-comicchar span {
+  margin-top: 10px;
+  width: 70%;
+  color: rgb(128, 118, 118);
+}

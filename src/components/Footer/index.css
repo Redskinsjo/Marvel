@@ -1,0 +1,20 @@
+.super-container-footer {
+  position: relative;
+  bottom: 0;
+  height: 100px;
+  background-color: white;
+}
+.container-footer {
+  height: 100%;
+  max-width: 1440px;
+  padding: 0 24px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-footer span {
+  font-size: 16px;
+  color: black;
+  text-align: center;
+}

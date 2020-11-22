@@ -1,0 +1,17 @@
+.super-container-comics {
+  background-color: black;
+  text-align: center;
+}
+.super-container-comics h3 {
+  color: white;
+  font-size: 26px;
+  margin-top: 50px;
+  text-decoration: underline;
+}
+.container-comics9 {
+  max-width: 1440px;
+  padding: 0 24px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}

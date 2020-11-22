@@ -1,0 +1,72 @@
+.super-container-favoris {
+  background-color: black;
+}
+
+.container-favoris {
+  background-color: black;
+  /* background-image: url('../../assets/img/fav-back.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; */
+  max-width: 1440px;
+  padding: 0 24px;
+  min-height: 100vh;
+  margin: 24px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.favoris-characters {
+  max-width: 1440px;
+  padding: 0 24px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.favoris-characters > h3 {
+  margin-top: 50px;
+  font-size: 26px;
+  color: white;
+  text-decoration: underline;
+}
+.favoris-characters > div {
+  width: 100%;
+  padding: 0 24px;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.favoris-comics {
+  max-width: 1440px;
+  padding: 0 24px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.favoris-comics h3 {
+  font-size: 26px;
+  color: white;
+  text-decoration: underline;
+}
+.favoris-comics > div {
+  width: 100%;
+  padding: 0 24px;
+  margin: auto;
+  display: flex;
+  overflow: hidden;
+  overflow-x: auto;
+}
+.ant-empty {
+  color: silver;
+  font-size: 22px;
+  background-color: black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.ant-empty-img-default-g {
+  fill: black;
+}

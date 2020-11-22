@@ -1,1 +1,28 @@
 /* Other rules */
+:root {
+  --page-margin: 24px;
+}
+html {
+  height: 100vh;
+  overflow-x: hidden;
+}
+body {
+  margin: 0;
+  height: 100%;
+  font-family: 'Roboto Bold', sans-serif;
+}
+#root {
+  height: 100%;
+  background-color: black;
+}
+/* #root > div {
+  height: 100vh;
+} */
+/* #root > div {
+  height: 100vh;
+  max-width: calc(1280px + 2 * var(--page-margin));
+  padding-left: var(--page-margin);
+  padding-right: var(--page-margin);
+  margin-left: auto;
+  margin-right: auto;
+} */

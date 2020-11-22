@@ -1,0 +1,58 @@
+.super-container-profile {
+  background-color: black;
+}
+.container-profile {
+  max-width: 1440px;
+  height: calc(100vh - 193px);
+  padding: 0 24px;
+  margin: auto;
+}
+.container-char-profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container-char-profile h1 {
+  color: white;
+  font-size: 24px;
+  margin: 20px;
+  text-decoration: underline;
+}
+.container-char-profile img {
+  margin-top: 20px;
+}
+.container-char-profile span {
+  color: red;
+  margin: 15px;
+  font-size: 19px;
+}
+.img-profile {
+  background-color: rgba(54, 53, 53, 0.651);
+  width: calc(100vw / 6);
+  height: calc(100vw / 6);
+  object-fit: cover;
+  object-position: left;
+  padding: 10px;
+}
+.component-comics {
+  margin: 50px 0;
+  display: flex;
+  align-items: flex-start;
+  overflow: scroll;
+  overflow-x: auto;
+  position: relative;
+}
+.component-comics h3 {
+  color: white;
+  margin: 0 50px;
+  font-size: 22px;
+  text-decoration: underline;
+}
+.container-carousel {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.container-carousel span {
+  color: white;
+}

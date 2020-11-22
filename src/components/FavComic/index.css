@@ -1,0 +1,33 @@
+.container-comic6 {
+  padding: 50px 0;
+  width: 190px;
+  margin-right: 44px;
+  display: flex;
+  flex-direction: column;
+}
+.container-comic6 img {
+  width: 100%;
+}
+.container-comic6 > span {
+  color: white;
+  font-size: 19px;
+  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.remove-comic2 {
+  color: white;
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+}
+.remove-comic2 i:hover {
+  color: red;
+}
+.remove-comic2 span:hover {
+  color: pink;
+  font-size: 13px;
+}

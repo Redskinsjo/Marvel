@@ -1,0 +1,20 @@
+.super-container-characters {
+  background-color: black;
+  text-align: center;
+}
+.super-container-characters h3 {
+  color: white;
+  font-size: 26px;
+  margin-top: 50px;
+  text-decoration: underline;
+}
+.container-characters {
+  max-width: 1440px;
+  padding: 0 24px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ant-pagination-item-ellipsis {
+  color: #1890ff !important;
+}
