@@ -42,7 +42,7 @@ const Favoris = ({ navLoc, setNavLoc }) => {
         <div className="favoris-characters">
           <h3>Favoris characters</h3>
           <div>
-            {(favCharacters && favCharacters.length > 0) || !favCharacters ? (
+            {favCharacters && favCharacters?.length > 0 ? (
               renderFavCharacters
             ) : (
               <Empty></Empty>
@@ -52,7 +52,7 @@ const Favoris = ({ navLoc, setNavLoc }) => {
         <div className="favoris-comics">
           <h3>Favoris comics</h3>
           <div>
-            {favComics && favComics.length > 0 ? (
+            {favComics && favComics?.length > 0 ? (
               renderFavComics
             ) : (
               <div>
