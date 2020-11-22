@@ -13,12 +13,12 @@ const CharacterProfile = ({ navLoc, setNavLoc }) => {
   const fetchData = async () => {
     try {
       const characterRes = await axios.get(
-        'http://localhost:3001/character/' + params.id
+        'https://backendmarvel.herokuapp.com/character/' + params.id
       );
       setCharacterData(characterRes.data[0]);
 
       const comicRes = await axios.get(
-        'http://localhost:3001/character/' + params.id + '/comics'
+        'https://backendmarvel.herokuapp.com/character/' + params.id + '/comics'
       );
       setComicData(comicRes.data);
       setIsLoading(false);

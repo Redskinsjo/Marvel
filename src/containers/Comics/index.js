@@ -16,7 +16,7 @@ const Comics = ({ navLoc, setNavLoc, searchComic }) => {
   const fetchData = async (search) => {
     try {
       const response = await axios({
-        url: 'http://localhost:3001/comics',
+        url: 'https://backendmarvel.herokuapp.com/comics',
         method: 'post',
         data: {
           page: currentPage,

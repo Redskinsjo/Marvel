@@ -17,7 +17,7 @@ const Characters = ({ navLoc, setNavLoc, searchChar }) => {
   const fetchData = async (search) => {
     try {
       const response = await axios({
-        url: 'http://localhost:3001/characters',
+        url: 'https://backendmarvel.herokuapp.com/characters',
         method: 'post',
         data: {
           page: currentPage,
