@@ -45,7 +45,9 @@ const Favoris = ({ navLoc, setNavLoc }) => {
             {favCharacters && favCharacters?.length > 0 ? (
               renderFavCharacters
             ) : (
-              <Empty></Empty>
+              <div>
+                <Empty></Empty>
+              </div>
             )}
           </div>
         </div>
